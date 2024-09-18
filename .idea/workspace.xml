@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f60cce03-7150-47fe-8242-cf89e61af150" name="Changes" comment="json wird als response wieder dem frontend zurückgegeben">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/midjouney_api_requests/button_presser.py" beforeDir="false" afterPath="$PROJECT_DIR$/midjouney_api_requests/button_presser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/midjouney_api_requests/imagine.py" beforeDir="false" afterPath="$PROJECT_DIR$/midjouney_api_requests/imagine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/midjouney_api_requests/job_status_retriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/midjouney_api_requests/job_status_retriever.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/test_creation" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2coyNBWoGZmBBoIWo2Lz6XTirbv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.Dockerfile.executor": "Run",
+    "Python tests.Python tests for excel_product_finisher_test.TestExcelProductFinisher.executor": "Run",
+    "Python tests.Python tests for gemini_api_requester_test.TestGeminiApiRequester.executor": "Run",
+    "Python tests.Python tests for gemini_api_requester_test.TestGeminiApiRequester.test_generate_text.executor": "Run",
+    "Python tests.Python tests for gemini_api_requester_test.TestGeminiApiRequester.test_generate_text_safety_config.executor": "Run",
+    "Python tests.Python tests for job_status_retriever_test.TestJobStatusRetriever.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_check_or_create_subfolder.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_create_folder_with_date.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_downloads_erstellen.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_downloads_ordner_loeschen.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_excel_erstellen.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_process_first_niche.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_process_image.executor": "Run",
+    "Python tests.Python tests for main_test.TestMain.test_upscaling_starten.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_add_task.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_get_status_of_niche.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_load_data.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_load_data_file_not_found.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_load_data_json_decode_error.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_save_data.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_set_archive.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_set_download_success.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_set_excel_success.executor": "Run",
+    "Python tests.Python tests for niche_management_test.TestNicheManagement.test_set_upscaling_success.executor": "Run",
+    "Python tests.Python tests for test_niche_management.TestNicheManagement.executor": "Run",
+    "Python tests.Python tests in niche_management_test.py.executor": "Run",
+    "Python.Discord-Steuerung.executor": "Run",
+    "Python.GUI_Kanban.executor": "Run",
+    "Python.Midjourney API.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.discord_steuerung.executor": "Run",
+    "Python.excel_product_finisher.executor": "Run",
+    "Python.gemini_api_requester.executor": "Run",
+    "Python.gui_kanban.executor": "Run",
+    "Python.image_processor.executor": "Run",
+    "Python.job_status_retriever.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Python",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/api_requests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T-Shirt Business Gönnung" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="T-Shirt Business Gönnung" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_main.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="T-Shirt Business Gönnung" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main.TestMain&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_niche_management.TestNicheManagement" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="T-Shirt Business Gönnung" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_niche_management.TestNicheManagement&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_main.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="T-Shirt Business Gönnung" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_main.TestMain&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f60cce03-7150-47fe-8242-cf89e61af150" name="Changes" comment="" />
+      <created>1708792184560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708792184560</updated>
+      <workItem from="1708792241757" duration="1948000" />
+      <workItem from="1708794208872" duration="2450000" />
+      <workItem from="1708950753551" duration="4279000" />
+      <workItem from="1709124905076" duration="3916000" />
+      <workItem from="1709302316714" duration="4122000" />
+      <workItem from="1709369559277" duration="1597000" />
+      <workItem from="1709707605253" duration="174000" />
+      <workItem from="1709707785507" duration="43000" />
+      <workItem from="1709707832738" duration="784000" />
+      <workItem from="1709709365275" duration="110000" />
+      <workItem from="1709709487319" duration="251000" />
+      <workItem from="1709792671964" duration="1953000" />
+      <workItem from="1709794753620" duration="398000" />
+      <workItem from="1709795156383" duration="1082000" />
+      <workItem from="1709879459316" duration="661000" />
+      <workItem from="1709880138617" duration="1476000" />
+      <workItem from="1709980234172" duration="2257000" />
+      <workItem from="1710225191570" duration="1741000" />
+      <workItem from="1710312100426" duration="1092000" />
+      <workItem from="1710486684600" duration="790000" />
+      <workItem from="1710510460027" duration="2706000" />
+      <workItem from="1710612381358" duration="5136000" />
+      <workItem from="1710673796498" duration="9339000" />
+      <workItem from="1710748030654" duration="599000" />
+      <workItem from="1711114693420" duration="2033000" />
+      <workItem from="1711211379881" duration="3035000" />
+      <workItem from="1711270842575" duration="3224000" />
+      <workItem from="1711614384451" duration="993000" />
+      <workItem from="1711616768692" duration="248000" />
+      <workItem from="1711698164856" duration="855000" />
+      <workItem from="1711699711786" duration="113000" />
+      <workItem from="1711827425831" duration="4000" />
+      <workItem from="1712422184888" duration="611000" />
+      <workItem from="1712481793746" duration="3818000" />
+      <workItem from="1712561390607" duration="6219000" />
+      <workItem from="1712573812810" duration="80000" />
+      <workItem from="1712574029335" duration="6067000" />
+      <workItem from="1712642164276" duration="3132000" />
+      <workItem from="1713181553492" duration="645000" />
+      <workItem from="1713848670868" duration="3281000" />
+      <workItem from="1713962980850" duration="3003000" />
+      <workItem from="1714023244639" duration="1315000" />
+      <workItem from="1714052727001" duration="1396000" />
+      <workItem from="1714111128369" duration="871000" />
+      <workItem from="1714119853027" duration="743000" />
+      <workItem from="1714121447076" duration="11000" />
+      <workItem from="1714121475694" duration="32000" />
+      <workItem from="1714804651903" duration="601000" />
+      <workItem from="1714807577461" duration="1309000" />
+      <workItem from="1714920930929" duration="1964000" />
+      <workItem from="1715073793943" duration="412000" />
+      <workItem from="1715074335071" duration="397000" />
+      <workItem from="1715180491014" duration="812000" />
+      <workItem from="1715195449570" duration="602000" />
+      <workItem from="1715236199451" duration="3319000" />
+      <workItem from="1715340992059" duration="3998000" />
+      <workItem from="1715432309206" duration="1388000" />
+      <workItem from="1715433700847" duration="2179000" />
+      <workItem from="1715598637783" duration="162000" />
+      <workItem from="1715598832499" duration="4478000" />
+      <workItem from="1715685930334" duration="1833000" />
+      <workItem from="1715782657997" duration="2015000" />
+      <workItem from="1715858052687" duration="5779000" />
+      <workItem from="1715927833646" duration="8705000" />
+      <workItem from="1716818321147" duration="1222000" />
+      <workItem from="1716983579633" duration="891000" />
+      <workItem from="1717148374031" duration="1188000" />
+      <workItem from="1717410599454" duration="1641000" />
+      <workItem from="1717581188482" duration="727000" />
+      <workItem from="1717596334302" duration="598000" />
+      <workItem from="1718286947561" duration="599000" />
+      <workItem from="1718882999780" duration="2322000" />
+      <workItem from="1718896219488" duration="1658000" />
+      <workItem from="1718971433180" duration="2930000" />
+      <workItem from="1719234575049" duration="2027000" />
+      <workItem from="1719309465355" duration="2162000" />
+      <workItem from="1719408295316" duration="723000" />
+      <workItem from="1719409103578" duration="1342000" />
+      <workItem from="1726647677906" duration="425000" />
+    </task>
+    <task id="LOCAL-00005" summary="Anstatt im Browser wird es jetzt als App geöffnet">
+      <option name="closed" value="true" />
+      <created>1709216911929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709216911929</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Discord wird geöffnet und ein entsprechendes Bild wird generiert">
+      <option name="closed" value="true" />
+      <created>1709306426575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709306426575</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Code-Refactoring und Versuch von OCR-Einbindung">
+      <option name="closed" value="true" />
+      <created>1709796235818</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796235818</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Erfolgreiche Einbindung von OCR.&#10;Allerdings wird nicht das erkannt, was ich erhoffte">
+      <option name="closed" value="true" />
+      <created>1709881550959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709881550959</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Umstellung auf Browser. Evtl. Miteinbezug von Midjourney API">
+      <option name="closed" value="true" />
+      <created>1710227302496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227302496</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Midjourney API eingefügt">
+      <option name="closed" value="true" />
+      <created>1710487444174</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710487444174</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Bildgenerierung läuft mit generierter Beschreibung">
+      <option name="closed" value="true" />
+      <created>1710513536104</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710513536104</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Automatisiertes Upscaling des generierten Bildes">
+      <option name="closed" value="true" />
+      <created>1710617517083</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710617517083</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Speicherung des Bildes nach dem Upscaling">
+      <option name="closed" value="true" />
+      <created>1710676938909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676938909</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Zu allen generierten Beschreibungen werden über die Midjourney API Bilder generiert und im Download-Ordner gespeichert">
+      <option name="closed" value="true" />
+      <created>1710685132762</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710685132762</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1711116001973</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711116001973</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Image Processer eingebaut und muss noch getestet werden&#10;&#10;--&gt; Background Remover&#10;--&gt; Image Resizing">
+      <option name="closed" value="true" />
+      <created>1711214130076</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711214130076</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Image Processor in den Gesamtablauf integriert">
+      <option name="closed" value="true" />
+      <created>1711272110854</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711272110854</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Product Description Generator miteinbezogen">
+      <option name="closed" value="true" />
+      <created>1711615371579</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711615371579</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Product Description Generator miteinbezogen.&#10;Anfang die Excel zu erstellen">
+      <option name="closed" value="true" />
+      <created>1712485617909</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712485617910</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Product Description Generator miteinbezogen.&#10;Anfang die Excel zu erstellen">
+      <option name="closed" value="true" />
+      <created>1712569369277</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712569369277</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Erste Version ohne Übersetzung aus dem Englischen">
+      <option name="closed" value="true" />
+      <created>1712582206107</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712582206107</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Erste Version ohne Übersetzung aus dem Englischen">
+      <option name="closed" value="true" />
+      <created>1712642174921</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712642174921</updated>
+    </task>
+    <task id="LOCAL-00023" summary="- Übersetzung aus dem Deutschen&#10;- Alle Produkte werden sofort aktiviert">
+      <option name="closed" value="true" />
+      <created>1713851284372</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713851284372</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Test, ob alle Produkte hochgeladen werden">
+      <option name="closed" value="true" />
+      <created>1714119723135</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1714119723135</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Test, ob alle Produkte hochgeladen werden">
+      <option name="closed" value="true" />
+      <created>1714121488921</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1714121488921</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Änderungen">
+      <option name="closed" value="true" />
+      <created>1715238672692</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715238672692</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Endpunkt für das hinzufügen einer Nische erstellt">
+      <option name="closed" value="true" />
+      <created>1715342430229</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715342430229</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Funktionierender Endpunkt für das Hinzufügen einer Nische erstellt und mit Postman getestet">
+      <option name="closed" value="true" />
+      <created>1715343974052</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1715343974052</updated>
+    </task>
+    <task id="LOCAL-00029" summary="CORS Komponente hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1715433922934</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1715433922934</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Enum-Erstellung und Kanban-Erweiterung">
+      <option name="closed" value="true" />
+      <created>1715435281361</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715435281361</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Refactoring und Erstellung von automatischem Statuswechsel">
+      <option name="closed" value="true" />
+      <created>1715600748537</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1715600748537</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Debugging von der process_first_niche Methode">
+      <option name="closed" value="true" />
+      <created>1715602168378</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1715602168378</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Ausbau von Debugging-Ausgaben in der Konsole mit Timestamps">
+      <option name="closed" value="true" />
+      <created>1715602941758</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1715602941758</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Die ersten Tests für niche_management.py geschrieben">
+      <option name="closed" value="true" />
+      <created>1715685463151</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1715685463151</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Alle Tests für niche_management.py geschrieben">
+      <option name="closed" value="true" />
+      <created>1715686149818</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1715686149818</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Erstellung von Tests für job_status_retriever.py">
+      <option name="closed" value="true" />
+      <created>1715686498567</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1715686498567</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Erstellung von Tests für excel_product_finisher.py">
+      <option name="closed" value="true" />
+      <created>1715687553191</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1715687553191</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Erstellung von Testfällen für main.py">
+      <option name="closed" value="true" />
+      <created>1715784402705</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1715784402705</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Umbenennung der Pythonfiles für automatisiertes Testen">
+      <option name="closed" value="true" />
+      <created>1715784504972</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1715784504972</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Single Responsibility Responsible ausgebaut">
+      <option name="closed" value="true" />
+      <created>1715858745553</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1715858745553</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Debugging">
+      <option name="closed" value="true" />
+      <created>1715870289765</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1715870289765</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Bild auf 4500 * 4500 erweitert. Versuch das Bild mittig zu platzieren">
+      <option name="closed" value="true" />
+      <created>1715939573042</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1715939573042</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Prozessierung in der main-methode angepasst">
+      <option name="closed" value="true" />
+      <created>1715942473183</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1715942473183</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Prozessierung in der main-methode angepasst">
+      <option name="closed" value="true" />
+      <created>1715942657090</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1715942657090</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Debugging Statuswechsel bei Prozessdurchlauf">
+      <option name="closed" value="true" />
+      <created>1716038560102</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1716038560102</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Debugging Statuswechsel bei Prozessdurchlauf">
+      <option name="closed" value="true" />
+      <created>1716985380167</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1716985380167</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Image Description bearbeitet">
+      <option name="closed" value="true" />
+      <created>1717148555747</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1717148555747</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Bildposition von Bildgenerierung bearbeitet">
+      <option name="closed" value="true" />
+      <created>1717411718028</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1717411718028</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Bildposition von Bildgenerierung bearbeitet">
+      <option name="closed" value="true" />
+      <created>1717420338158</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1717420338158</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Dockerfile hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1718884891684</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1718884891685</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Anpassung des Dockerfiles">
+      <option name="closed" value="true" />
+      <created>1718898596303</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1718898596303</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Anpassung für Testzwecke">
+      <option name="closed" value="true" />
+      <created>1718974958685</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1718974958685</updated>
+    </task>
+    <task id="LOCAL-00053" summary="json wird als response wieder dem frontend zurückgegeben">
+      <option name="closed" value="true" />
+      <created>1719309750825</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1719309750825</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Änderungen" />
+    <MESSAGE value="Endpunkt für das hinzufügen einer Nische erstellt" />
+    <MESSAGE value="Funktionierender Endpunkt für das Hinzufügen einer Nische erstellt und mit Postman getestet" />
+    <MESSAGE value="CORS Komponente hinzugefügt" />
+    <MESSAGE value="Enum-Erstellung und Kanban-Erweiterung" />
+    <MESSAGE value="Refactoring und Erstellung von automatischem Statuswechsel" />
+    <MESSAGE value="Debugging von der process_first_niche Methode" />
+    <MESSAGE value="Ausbau von Debugging-Ausgaben in der Konsole mit Timestamps" />
+    <MESSAGE value="Die ersten Tests für niche_management.py geschrieben" />
+    <MESSAGE value="Alle Tests für niche_management.py geschrieben" />
+    <MESSAGE value="Erstellung von Tests für job_status_retriever.py" />
+    <MESSAGE value="Erstellung von Tests für excel_product_finisher.py" />
+    <MESSAGE value="Erstellung von Testfällen für main.py" />
+    <MESSAGE value="Umbenennung der Pythonfiles für automatisiertes Testen" />
+    <MESSAGE value="Single Responsibility Responsible ausgebaut" />
+    <MESSAGE value="Debugging" />
+    <MESSAGE value="Bild auf 4500 * 4500 erweitert. Versuch das Bild mittig zu platzieren" />
+    <MESSAGE value="Prozessierung in der main-methode angepasst" />
+    <MESSAGE value="Debugging Statuswechsel bei Prozessdurchlauf" />
+    <MESSAGE value="Image Description bearbeitet" />
+    <MESSAGE value="Bildposition von Bildgenerierung bearbeitet" />
+    <MESSAGE value="Dockerfile hinzugefügt" />
+    <MESSAGE value="Anpassung des Dockerfiles" />
+    <MESSAGE value="Anpassung für Testzwecke" />
+    <MESSAGE value="json wird als response wieder dem frontend zurückgegeben" />
+    <option name="LAST_COMMIT_MESSAGE" value="json wird als response wieder dem frontend zurückgegeben" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$gui_kanban.coverage" NAME="gui_kanban Coverage Results" MODIFIED="1714920947399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$image_processor.coverage" NAME="image_processor Coverage Results" MODIFIED="1711270970988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$job_status_retriever.coverage" NAME="job_status_retriever Coverage Results" MODIFIED="1710511913374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_requests" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$.coverage" NAME=" Coverage Results" MODIFIED="1715784808542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$gemini_api_requester.coverage" NAME="gemini_api_requester Coverage Results" MODIFIED="1712576831286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$GUI_Kanban.coverage" NAME="GUI_Kanban Coverage Results" MODIFIED="1709126117658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$excel_product_finisher.coverage" NAME="excel_product_finisher Coverage Results" MODIFIED="1713851015547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$Discord_Steuerung.coverage" NAME="Discord-Steuerung Coverage Results" MODIFIED="1709126766177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$Midjourney_API.coverage" NAME="Midjourney API Coverage Results" MODIFIED="1710487137058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$discord_steuerung.coverage" NAME="discord_steuerung Coverage Results" MODIFIED="1709128750761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$main.coverage" NAME="main Coverage Results" MODIFIED="1717581287544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T_Shirt_Business_Gönnung$app.coverage" NAME="app Coverage Results" MODIFIED="1719410442334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
